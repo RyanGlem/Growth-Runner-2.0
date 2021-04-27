@@ -2775,7 +2775,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!224 &1371771988
 RectTransform:
@@ -4227,11 +4227,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9007601267173613090, guid: a5476c5612c561147b9ff62ab8f7ed84, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -120.8
+      value: -109.87
       objectReference: {fileID: 0}
     - target: {fileID: 9007601267173613090, guid: a5476c5612c561147b9ff62ab8f7ed84, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -36.356
+      value: -32.839996
       objectReference: {fileID: 0}
     - target: {fileID: 9007601267173613093, guid: a5476c5612c561147b9ff62ab8f7ed84, type: 3}
       propertyPath: m_Color.b
@@ -4303,11 +4303,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9007601267694883460, guid: a5476c5612c561147b9ff62ab8f7ed84, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -54.514
+      value: -35.09999
       objectReference: {fileID: 0}
     - target: {fileID: 9007601267694883460, guid: a5476c5612c561147b9ff62ab8f7ed84, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -36.826
+      value: -38.033005
       objectReference: {fileID: 0}
     - target: {fileID: 9007601267694883463, guid: a5476c5612c561147b9ff62ab8f7ed84, type: 3}
       propertyPath: m_Text
@@ -4489,11 +4489,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2368389806024953134, guid: 8aff290b17876954792a23cf7f62e8f3, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1.2600098
+      value: 1.553
       objectReference: {fileID: 0}
     - target: {fileID: 2368389806024953134, guid: 8aff290b17876954792a23cf7f62e8f3, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 1.2000008
+      value: 1.5281
       objectReference: {fileID: 0}
     - target: {fileID: 2368389806024953134, guid: 8aff290b17876954792a23cf7f62e8f3, type: 3}
       propertyPath: m_LocalScale.x
@@ -4537,11 +4537,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2368389806024953134, guid: 8aff290b17876954792a23cf7f62e8f3, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 928.73
+      value: 772.267
       objectReference: {fileID: 0}
     - target: {fileID: 2368389806024953134, guid: 8aff290b17876954792a23cf7f62e8f3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 379.33
+      value: 386.23
       objectReference: {fileID: 0}
     - target: {fileID: 2368389806024953134, guid: 8aff290b17876954792a23cf7f62e8f3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4558,22 +4558,6 @@ PrefabInstance:
     - target: {fileID: 2368389806024953135, guid: 8aff290b17876954792a23cf7f62e8f3, type: 3}
       propertyPath: m_Name
       value: PauseButton
-      objectReference: {fileID: 0}
-    - target: {fileID: 2368389806024953135, guid: 8aff290b17876954792a23cf7f62e8f3, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2368389806024953296, guid: 8aff290b17876954792a23cf7f62e8f3, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 2100000, guid: c9f6d0e7bc8541498c9a4799ba184ede, type: 3}
-    - target: {fileID: 2368389806024953297, guid: 8aff290b17876954792a23cf7f62e8f3, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2368389806024953297, guid: 8aff290b17876954792a23cf7f62e8f3, type: 3}
-      propertyPath: m_Interactable
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2368389806024953297, guid: 8aff290b17876954792a23cf7f62e8f3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
