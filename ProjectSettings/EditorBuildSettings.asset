@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SelectionScreen.unity
     guid: a7190022583760d41aeca1d9772c49c5
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Level 0.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Level 1.unity
@@ -28,16 +28,19 @@ EditorBuildSettings:
     guid: 4d5dfd65bf242d349a32384298ea332c
   - enabled: 1
     path: Assets/Scenes/Level 5.unity
-    guid: 15192570a47d12949b73aca231da210c
+    guid: e8e70fc8bb140344ca2507e45a07f6cd
   - enabled: 1
     path: Assets/Scenes/Level 6.unity
-    guid: ee5d3652561012c4397372934aaadc26
+    guid: abd73a41e6a554f4a8ec8e093d0a2eb2
   - enabled: 1
     path: Assets/Scenes/Level 7.unity
-    guid: 4989accb88bc893439b13c34948cec8f
+    guid: 8938cc3adeea06049907304d136873de
   - enabled: 1
     path: Assets/Scenes/Level 8.unity
-    guid: a929953ac98fb3d4c8bcf94c11f0214b
+    guid: 79ebffe0ef69f424497de875d158d2e5
+  - enabled: 1
+    path: Assets/Scenes/Level 9.unity
+    guid: 83f0833d5e7dd2844aa5fabd95745ab6
   - enabled: 1
     path: Assets/Scenes/EndScreen.unity
     guid: e950c5dee4b5d524f842592be34a5213

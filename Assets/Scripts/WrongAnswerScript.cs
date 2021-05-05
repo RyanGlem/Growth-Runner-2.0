@@ -10,7 +10,7 @@ public class WrongAnswerScript : MonoBehaviour
     public Button wrongButton;
 
     public void ButtonClick() {
-        
+
         livesController.playerHealth = livesController.playerHealth - incorrect;
         livesController.UpdateHealth();
         wrongButton.interactable = false;

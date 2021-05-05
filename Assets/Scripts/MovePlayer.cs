@@ -26,17 +26,17 @@ public class MovePlayer : MonoBehaviour
         if (isEnabled) {
 
             rigid.position = Vector2.MoveTowards (rigid.position, moveSpot.position, speed * Time.deltaTime);
-            if (rigid.position == target) animator.SetInteger ("Direction", 0);
+            if (rigid.position == target) {
+                animator.SetInteger ("Direction", 0);
+                isEnabled = !isEnabled;
+            }
         }
     } 
 
     public void ButtonClicked() {
-
         isEnabled = !isEnabled;
 
         animator.SetInteger ("Direction", 1);
-        // rigid.velocity = new Vector2 (speed, 0);
-        // rigid.position = Vector2.MoveTowards (rigid.position, moveSpot.position, speed * Time.deltaTime);
         Debug.Log ("MoveSpot: " + moveSpot.position);
         Debug.Log ("Transform Position: " + transform.position);
     }

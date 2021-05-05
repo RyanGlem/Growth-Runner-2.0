@@ -18,11 +18,11 @@ public class PlayerController : MonoBehaviour
         ProcColl (collision.gameObject);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision) {
+    private void OnTriggerEnter2D (Collider2D collision) {
 
         ProcColl (collision.gameObject);
 
-    }
+    } 
 
     void ProcColl (GameObject collider) {
         if (collider.CompareTag("Terrain")) {

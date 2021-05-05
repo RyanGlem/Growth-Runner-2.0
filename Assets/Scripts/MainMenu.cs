@@ -15,7 +15,7 @@ public class MainMenu : MonoBehaviour
     }
 
     public void MathSelection() {
-        SceneManager.LoadScene ("SampleScene");
+        SceneManager.LoadScene ("Level 0");
     }
 
     public void CapitalSelection() {

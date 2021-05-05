@@ -18,7 +18,7 @@ public class GameOverScreen : MonoBehaviour
 
     public void RestartBeginning () 
     {
-        SceneManager.LoadScene ("SampleScene");
+        SceneManager.LoadScene ("SelectionScreen");
     }
 
     public void ExitButton() {
